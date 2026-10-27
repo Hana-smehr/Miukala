@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>محصولات</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header id="header"></header>
+
+  <main class="product-page">
+    <div class="content-wrapper">
+      <!-- سایدبار راست -->
+      <aside class="sidebar">
+        <div class="categories">
+          <h3>دسته‌بندی‌ها</h3>
+          <ul>
+            <li><a href="products.html?category=dog" data-category="dog">سگ</a></li>
+            <li><a href="products.html?category=cat" data-category="cat">گربه</a></li>
+            <li><a href="products.html?category=bird" data-category="bird">پرنده</a></li>
+            <li><a href="products.html?category=fish" data-category="fish">ماهی</a></li>
+            <li><a href="products.html?category=horse" data-category="horse">اسب</a></li>
+            <li><a href="products.html?category=rodents" data-category="rodents">جونده</a></li>
+            <li><a href="products.html?category=petparent" data-category="petparent">دوست حیوانات</a></li>
+          </ul>
+        </div>
+
+        <div class="filters">
+          <h3>فیلتر محصولات</h3>
+          <!-- نمونه فیلتر -->
+          <label>
+            <input type="checkbox" name="price" value="under200"> زیر 200 هزار
+          </label>
+          <label>
+            <input type="checkbox" name="price" value="200to500"> 200 تا 500 هزار
+          </label>
+          <!-- می‌تونی فیلترهای بیشتری اضافه کنی -->
+        </div>
+      </aside>
+
+      <!-- کارت‌های محصول -->
+      <section class="products-grid">
+        <div class="pd-card" data-category="dog">
+          <img src="images/p1.jpg" alt="محصول 1" class="product-img">
+          <p class="product-name">محصول 1</p>
+          <p class="product-price">250,000 تومان</p>
+        </div>
+
+        <div class="pd-card" data-category="dog">
+          <img src="images/p2.jpg" alt="محصول 2" class="product-img">
+          <p class="product-name">محصول 2</p>
+          <p class="product-price">180,000 تومان</p>
+        </div>
+
+        <div class="pd-card" data-category="dog">
+          <img src="images/p3.jpg" alt="محصول 3" class="product-img">
+          <p class="product-name">محصول 3</p>
+          <p class="product-price">340,000 تومان</p>
+        </div>
+
+        <div class="pd-card" data-category="dog">
+          <img src="images/p4.jpg" alt="محصول 4" class="product-img">
+          <p class="product-name">محصول 4</p>
+          <p class="product-price">340,000 تومان</p>
+        </div>
+
+        <div class="pd-card" data-category="cat">
+          <img src="images/p5.jpg" alt="محصول 5" class="product-img">
+          <p class="product-name">محصول 5</p>
+          <p class="product-price">340,000 تومان</p>
+        </div>
+
+        <div class="pd-card" data-category="cat">
+          <img src="images/p6.jpg" alt="محصول 6" class="product-img">
+          <p class="product-name">محصول 6</p>
+          <p class="product-price">340,000 تومان</p>
+        </div>
+
+        <div class="pd-card" data-category="cat">
+          <img src="images/p7.jpg" alt="محصول 7" class="product-img">
+          <p class="product-name">محصول 7</p>
+          <p class="product-price">340,000 تومان</p>
+        </div>
+
+        <div class="pd-card" data-category="cat">
+          <img src="images/p8.jpg" alt="محصول 8" class="product-img">
+          <p class="product-name">محصول 8</p>
+          <p class="product-price">340,000 تومان</p>
+        </div>
+
+        <div class="pd-card" data-category="bird">
+          <img src="images/p9.jpg" alt="محصول 9" class="product-img">
+          <p class="product-name">محصول 9</p>
+          <p class="product-price">340,000 تومان</p>
+        </div>
+
+        <div class="pd-card" data-category="bird">
+          <img src="images/p10.jpg" alt="محصول 10" class="product-img">
+          <p class="product-name">محصول 10</p>
+          <p class="product-price">340,000 تومان</p>
+        </div>
+
+        <div class="pd-card" data-category="bird">
+          <img src="images/p11.jpg" alt="محصول 11" class="product-img">
+          <p class="product-name">محصول 11</p>
+          <p class="product-price">340,000 تومان</p>
+        </div>
+
+        <div class="pd-card" data-category="bird">
+          <img src="images/p12.jpg" alt="محصول 12" class="product-img">
+          <p class="product-name">محصول 12</p>
+          <p class="product-price">340,000 تومان</p>
+        </div>
+        <!-- ردیف بعدی هم مشابه -->
+      </section>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+  <script src="js/products.js"></script>
+</body>
+</html>
